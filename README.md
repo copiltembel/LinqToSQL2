@@ -1,27 +1,8 @@
 Linq To SQL2 Net Core
 =============
 
-Official Linq to SQL fork. A complete ORM which is backwards compatible with Linq to SQL but with new features. Please see the [Wiki](https://github.com/FransBouma/LinqToSQL2/wiki) for further information about the progress and design decisions made in this project. For the roadmap/features which are planned, please see the [issues section](https://github.com/FransBouma/LinqToSQL2/issues) for the work items. 
+This is a port to .NET Core 2.2. Since .NET Core is the future of .NET, maybe this will be useful to someone still using LinqToSQL. See original [Linq To SQL2 project](https://github.com/FransBouma/LinqToSQL2) from where I got the code.
 
-There's no official release yet, as this project has just been started. After every new feature successfully added to the codebase, a new version will be released on Nuget. 
+For the example to work I added a reference to [Mindbox.Data.Linq] (https://www.nuget.org/packages/Mindbox.Data.Linq)
 
-## Does the code in 'Trunk' compile?
-
-(No CI system setup (yet), so we'll have to do with the manually written elements below)
-
-It compiles, tests succeed, but the code will be changed a lot internally before the initial compiled release (especially for #6). 
-
-## Linq to SQL and this project
-
-This project is an official fork from Linq to SQL from the [.NET reference sourcecode](https://github.com/Microsoft/referencesource). As the reference source for .NET doesn't come in compilable form, the resource files for the error strings have been reverse engineered from the official System.Data.Linq assembly.
-
-This project strives to stay 100% backwards compatible with Linq to SQL's query API, so your original Linq to SQL projects will just work with Linq to SQL 2, unless stated otherwise.
-
-### License
-
-The original Linq to SQL code is (c) Microsoft Corporation (see License.txt). Additional code added is (c) by the contributors and is marked as such in the code files. 
-
-### Designer support
-
-This project will offer designer support through [LLBLGen Pro](http://www.llblgen.com)
-
+You will need a connectionstrings.json file for the example to work.
