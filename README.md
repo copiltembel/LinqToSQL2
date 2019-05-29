@@ -1,4 +1,4 @@
-Linq To SQL2
+Linq To SQL2 Net Core
 =============
 
 Official Linq to SQL fork. A complete ORM which is backwards compatible with Linq to SQL but with new features. Please see the [Wiki](https://github.com/FransBouma/LinqToSQL2/wiki) for further information about the progress and design decisions made in this project. For the roadmap/features which are planned, please see the [issues section](https://github.com/FransBouma/LinqToSQL2/issues) for the work items. 
