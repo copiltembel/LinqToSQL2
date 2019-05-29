@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SD.Tools.LinqToSQL2NetCore", "SD.Tools.LinqToSQL2NetCore.csproj", "{B3B82470-2A7D-47FD-9904-A13D8BD8A7FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SD.Tools.LinqToSQL2NetCore", "SD.Tools.LinqToSQL2NetCore.csproj", "{B3B82470-2A7D-47FD-9904-A13D8BD8A7FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToSQL2NetCore.Example.DataAccess", "LinqToSQL2NetCore.Example.DataAccess\LinqToSQL2NetCore.Example.DataAccess.csproj", "{62A12D89-FF5A-43FD-BEF5-6F8B71B1F747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToSQL2NetCore.Example", "LinqToSQL2NetCore.Example\LinqToSQL2NetCore.Example.csproj", "{71D8AB5C-12F6-48A9-B62D-20EAA269C966}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B3B82470-2A7D-47FD-9904-A13D8BD8A7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3B82470-2A7D-47FD-9904-A13D8BD8A7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3B82470-2A7D-47FD-9904-A13D8BD8A7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A12D89-FF5A-43FD-BEF5-6F8B71B1F747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A12D89-FF5A-43FD-BEF5-6F8B71B1F747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A12D89-FF5A-43FD-BEF5-6F8B71B1F747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A12D89-FF5A-43FD-BEF5-6F8B71B1F747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D8AB5C-12F6-48A9-B62D-20EAA269C966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D8AB5C-12F6-48A9-B62D-20EAA269C966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D8AB5C-12F6-48A9-B62D-20EAA269C966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D8AB5C-12F6-48A9-B62D-20EAA269C966}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

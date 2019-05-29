@@ -5,9 +5,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="LinqToSQL2NetCore.Example.DataAccess\**" />
+    <Compile Remove="LinqToSQL2NetCore.Example\**" />
+    <EmbeddedResource Remove="LinqToSQL2NetCore.Example.DataAccess\**" />
+    <EmbeddedResource Remove="LinqToSQL2NetCore.Example\**" />
+    <None Remove="LinqToSQL2NetCore.Example.DataAccess\**" />
+    <None Remove="LinqToSQL2NetCore.Example\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="1.0.19128.1-Preview" />
+    <PackageReference Include="Mindbox.Data.Linq" Version="2.0.7" />
     <PackageReference Include="System.Net.Security" Version="4.3.2" />
     <PackageReference Include="System.Security.Permissions" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
   </ItemGroup>
 
 </Project>
